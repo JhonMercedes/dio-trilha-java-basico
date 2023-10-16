@@ -22,5 +22,6 @@ public static void main(String[] args) {
   
   // Exibindo o resultado formatado
   System.out.println("Valor final do investimento: R$ " + valorFinal);
+  scanner.close();
  }
 }

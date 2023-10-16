@@ -15,6 +15,7 @@ public class Desafio02 {
 
         System.out.println("Conta Poupanca:");
         contaPoupanca.exibirInformacoes();
+        scanner.close();
     }
 }
 

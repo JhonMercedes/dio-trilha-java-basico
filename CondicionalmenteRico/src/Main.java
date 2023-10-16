@@ -8,13 +8,12 @@ public class Main {
     int saldoTotal = scanner.nextInt();
     int valorSaque = scanner.nextInt();
 
-    //TODO: Criar as condições necessárias para impressão da saída, vide tabela de exemplos.
-
     if(valorSaque <= saldoTotal) {
         int novoSaldo = saldoTotal - valorSaque;
         System.out.println("Saque realizado com sucesso. Novo saldo: " + novoSaldo);
     }else {
         System.out.println("Saldo insuficiente. Saque nao realizado!");
     }
+    scanner.close();
   }
 }

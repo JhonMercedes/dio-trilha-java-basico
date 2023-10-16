@@ -25,5 +25,7 @@ public class CaixaEletronico {
             System.out.println("Seu saldo atual é: "+ saldo);
         }else 
             System.out.println("Valor do saque é maior que o saldo atual.");
+
+        scan.close();
     }
 }

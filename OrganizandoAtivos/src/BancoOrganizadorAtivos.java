@@ -27,5 +27,6 @@ public class BancoOrganizadorAtivos {
         for (String ativo : ativos) {
             System.out.println(ativo); // Imprimir cada código em uma nova linha
         }
+        scanner.close();
     }
 }

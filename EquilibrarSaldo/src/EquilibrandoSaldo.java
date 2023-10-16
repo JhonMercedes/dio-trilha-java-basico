@@ -11,7 +11,7 @@ public class EquilibrandoSaldo {
         System.out.println("Informar valor do saque: ");
         double valorRetirada = scanner.nextDouble();
 
-       //TODO: Calcular o saldo atualizado de acordo com a descrição deste desafio.
+    
 
         // System.out.println("Valor total conta corrente: [0001030-1]: " + saldoAtual);
         
@@ -21,7 +21,10 @@ public class EquilibrandoSaldo {
         saldoAtual = saldoAtual - valorRetirada;
 
         System.out.println("Saque de "+valorRetirada+" realizado com sucesso, saldo atualizado na conta: " + saldoAtual);
+
+        scanner.close();
         
-     //TODO: Imprimir o a saída de conforme a tabela de exemplos (uma casa decimal).
+  
     }
+    
 }
